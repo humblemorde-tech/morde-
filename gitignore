@@ -1,0 +1,82 @@
+# =========================
+# 🧠 Morde✈️ Bot .gitignore
+# =========================
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# 🔐 Sensitive data (VERY IMPORTANT)
+# =========================
+config.py
+.env
+.env.*
+sessions/
+database/users.json
+database/groups.json
+auth.txt
+session.json
+
+# API keys / tokens
+*.key
+*.pem
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Testing / cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Build / distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Node (if you later add JS features)
+# =========================
+node_modules/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Bot assets safety (optional ignore large media)
+# =========================
+assets/cache/
